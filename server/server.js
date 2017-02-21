@@ -13,7 +13,7 @@ app.get('/',(req,res)=>{
 
 // app.use(bodyParser.json());
 //
-// app.set('port',process.env.PORT || 3000);
+ app.set('port',process.env.PORT || 3000);
 //
 // app.post('/todos',(req,res)=>{
 //   var todo = new ToDo({text:req.body.text});
